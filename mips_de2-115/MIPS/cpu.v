@@ -69,8 +69,8 @@ Top module || Sub modules
 //
 //動作実験用
 //論理シミュレーション時コメントアウト
-`include "rom8x1024_DE2.v"  // ROMの記述（DE2ボード, quartus, 動作実験用）
-`include "ram8x2048_DE2.v"  // RAMの記述（DE2ボード, quartus, 動作実験用）
+ `include "rom8x1024_DE2.v"  // ROMの記述（DE2ボード, quartus, 動作実験用）
+ `include "ram8x2048_DE2.v"  // RAMの記述（DE2ボード, quartus, 動作実験用）
 
 `include "alu.v"           // ALUの記述
 `include "pc.v"            // PCの記述
@@ -312,7 +312,7 @@ module cpu (clk, reset,
   //
   //論理シミュレーション用
   //DE2, quartus, 動作実験時コメントアウト
-  //rom8x1024_sim  rom8x1024a(rom_addr, rom_data);
+//  rom8x1024_sim  rom8x1024a(rom_addr, rom_data);
   //
   //動作実験用
   //論理シミュレーション時コメントアウト

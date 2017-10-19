@@ -39,7 +39,7 @@
 //
 // 追加設計 1 のヒント(10)：I 形式の命令 sw の追加、命令コードの定義
 //
-`define     SW  6'b001100  //  store word (I 形式)
+`define     SW  6'b101011  //  store word (I 形式)
 //
 //
 //
