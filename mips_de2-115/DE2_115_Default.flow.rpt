@@ -1,5 +1,5 @@
 Flow report for DE2_115_Default
-Thu Oct 19 16:34:58 2017
+Thu Oct 26 13:47:02 2017
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Thu Oct 19 16:34:37 2017           ;
+; Flow Status                        ; Successful - Thu Oct 26 13:46:38 2017           ;
 ; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; DE2_115_Default                                 ;
 ; Top-level Entity Name              ; DE2_115_Default                                 ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/19/2017 16:31:29 ;
+; Start date & time ; 10/26/2017 13:43:16 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DE2_115_Default     ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                                               ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 123509604547113.150839828910746                                     ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 272744408385766.150899299622335                                     ; --            ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                                  ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                                   ; --            ; --          ; --             ;
 ; MISC_FILE                           ; D:/Assignment/DE2_115_Default/DE2_115_Default.dpf                   ; --            ; --          ; --             ;
@@ -97,11 +97,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:30     ; 1.0                     ; 420 MB              ; 00:00:28                           ;
-; Fitter                    ; 00:02:25     ; 1.0                     ; 739 MB              ; 00:02:24                           ;
-; Assembler                 ; 00:00:06     ; 1.0                     ; 370 MB              ; 00:00:06                           ;
-; TimeQuest Timing Analyzer ; 00:00:19     ; 1.0                     ; 496 MB              ; 00:00:18                           ;
-; Total                     ; 00:03:20     ; --                      ; --                  ; 00:03:16                           ;
+; Analysis & Synthesis      ; 00:00:36     ; 1.0                     ; 412 MB              ; 00:00:29                           ;
+; Fitter                    ; 00:02:31     ; 1.0                     ; 733 MB              ; 00:02:28                           ;
+; Assembler                 ; 00:00:07     ; 1.0                     ; 366 MB              ; 00:00:06                           ;
+; TimeQuest Timing Analyzer ; 00:00:22     ; 1.0                     ; 496 MB              ; 00:00:19                           ;
+; Total                     ; 00:03:36     ; --                      ; --                  ; 00:03:22                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -110,10 +110,10 @@ applicable agreement for further details.
 +---------------------------+--------------------------------+----------------+------------+----------------+
 ; Module Name               ; Machine Hostname               ; OS Name        ; OS Version ; Processor type ;
 +---------------------------+--------------------------------+----------------+------------+----------------+
-; Analysis & Synthesis      ; iceb35.ice.nuie.nagoya-u.ac.jp ; CentOS release ; 6          ; x86_64         ;
-; Fitter                    ; iceb35.ice.nuie.nagoya-u.ac.jp ; CentOS release ; 6          ; x86_64         ;
-; Assembler                 ; iceb35.ice.nuie.nagoya-u.ac.jp ; CentOS release ; 6          ; x86_64         ;
-; TimeQuest Timing Analyzer ; iceb35.ice.nuie.nagoya-u.ac.jp ; CentOS release ; 6          ; x86_64         ;
+; Analysis & Synthesis      ; iced06.ice.nuie.nagoya-u.ac.jp ; CentOS release ; 6          ; x86_64         ;
+; Fitter                    ; iced06.ice.nuie.nagoya-u.ac.jp ; CentOS release ; 6          ; x86_64         ;
+; Assembler                 ; iced06.ice.nuie.nagoya-u.ac.jp ; CentOS release ; 6          ; x86_64         ;
+; TimeQuest Timing Analyzer ; iced06.ice.nuie.nagoya-u.ac.jp ; CentOS release ; 6          ; x86_64         ;
 +---------------------------+--------------------------------+----------------+------------+----------------+
 
 
