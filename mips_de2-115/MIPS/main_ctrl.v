@@ -352,7 +352,7 @@ module main_ctrl (instruction,
 //
 // 追加設計 3 のヒント(2)：I 形式の命令 SLTIU の追加、is_branch モジュールへの制御信号の記述
 //
-      `SLTIU:  is_branch_ctrl_tmp = 3'b101;
+      `SLTIU:  is_branch_ctrl_tmp = 3'b110;
 //
 //
 //
@@ -482,7 +482,10 @@ module main_ctrl (instruction,
 //
 // 追加設計 1 のヒント(14)：I 形式の命令 sw の追加、符号拡張を行う制御信号の記述
 //
-                        || ((op_code == `SW) && 0)
+                        || (op_code == `SW)
+
+//真 LW 
+                        || (op_code == `LW)
 //
 //
 //
